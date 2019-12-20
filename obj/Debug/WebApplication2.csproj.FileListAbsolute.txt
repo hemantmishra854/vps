@@ -1,0 +1,25 @@
+C:\Users\Hemant mishra\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Hemant mishra\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Hemant mishra\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Hemant mishra\Documents\Visual Studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Hemant mishra\documents\visual studio 2012\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Hemant mishra\Desktop\VISA PROCESSING\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Hemant mishra\Desktop\VISA PROCESSING\obj\Debug\WebApplication2.dll
+C:\Users\Hemant mishra\Desktop\VISA PROCESSING\obj\Debug\WebApplication2.pdb
+C:\Users\Hemant mishra\Desktop\VISA PROCESSING\bin\WebApplication2.dll
+C:\Users\Hemant mishra\Desktop\VISA PROCESSING\bin\WebApplication2.pdb
+E:\vps\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\vps\obj\Debug\WebApplication2.dll
+E:\vps\obj\Debug\WebApplication2.pdb
+H:\tutorials\vps\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+H:\tutorials\vps\obj\Debug\WebApplication2.dll
+H:\tutorials\vps\obj\Debug\WebApplication2.pdb
+H:\tutorials\vps\bin\WebApplication2.dll
+H:\tutorials\vps\bin\WebApplication2.pdb
+E:\tutorials\vps\bin\WebApplication2.dll
+E:\tutorials\vps\bin\WebApplication2.pdb
+E:\tutorials\vps\obj\Debug\WebApplication2.dll
+E:\tutorials\vps\obj\Debug\WebApplication2.pdb
+E:\tutorials\vps\bin\WebApplication2.dll.config
+E:\tutorials\vps\obj\Debug\WebApplication2.csprojAssemblyReference.cache
+E:\tutorials\vps\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache

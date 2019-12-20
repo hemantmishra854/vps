@@ -1,0 +1,24 @@
+﻿
+    body {
+  
+    max-width:100%;
+    margin:0px;
+   
+}
+
+.first
+{
+    
+    
+    font-style:oblique italic;
+    font-weight:800;
+}
+
+    .first::first-letter {
+        color: #ff0000;
+        font-family: monospace 'Segoe Print' 'Segoe UI';
+        font-size: 150%;
+        font-weight:bold;
+    }
+
+

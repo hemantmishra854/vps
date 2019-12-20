@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head runat="server">
+    <title></title>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="CSS/masterpage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+                        <a class="navbar-brand first" href="index.aspx">Visa
+                        </a>
+                        <button type="button" class="navbar-toggler" data-target=".navbar-collapse" data-toggle="collapse" runat="server">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse ">
+                            <ul class="navbar-nav ml-auto ">
+                                <li class=" nav-item active">
+                                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="nav-link " NavigateUrl="~/index.aspx">
+                                        Home <span class="sr-only">(current)</span></asp:HyperLink>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="about.aspx">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="feedback.aspx">Feedback</a></li>
+                                <li class="nav-item dropdown">
+
+                                    <asp:HyperLink ID="navbarDropdown" runat="server" class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" Visible="false">Apply</asp:HyperLink>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                                        <asp:HyperLink ID="HyperLink2" runat="server" class="dropdown-item" href="personaldetails.aspx">Visa Application Form</asp:HyperLink>
+
+                                        <div class="dropdown-divider"></div>
+
+                                        <asp:HyperLink ID="HyperLink3" runat="server" class="dropdown-item" href="uploaddocuments.aspx">Upload Documents</asp:HyperLink>
+
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <asp:HyperLink ID="hypProfile" runat="server" class="nav-link" Visible="false">profile</asp:HyperLink>
+                                </li>
+                                <li class="nav-item">
+
+                                    <asp:HyperLink ID="hypVisaStatus" runat="server" class="nav-link" Visible="false">Visa Status</asp:HyperLink>
+                                </li>
+                                <li class="nav-item ml-0 ml-lg-5">
+                                    <asp:Label ID="lblUser" runat="server" Text=""></asp:Label>
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <asp:Button ID="loginStatus" runat="server" Text="Login/Register" CssClass="nav-link btn text-white"
+                                        CausesValidation="False" OnClick="loginStatus_Click" />
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+
+        <asp:ContentPlaceHolder ID="master" runat="server">
+        </asp:ContentPlaceHolder>
+        <div class="container-fluid bg-dark">
+            <div class="row mt-3 mb-3">
+                <div class="col-12 m-auto col-md-4">
+                    <a class="navbar-brand first text-white" href="index.aspx">VisaProcessingSystem</a>
+                </div>
+                <div class="col-12 m-auto col-md-4">
+                    <ul class="navbar-nav ml-auto text-white mt-3">
+                        <li class="nav-item text-white">Quick Links</li>
+                        <li class="nav-item "><a class="nav-link text-info" href="termsandconditions.aspx">Terms & Conditions</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="privacy.aspx">Privacy Policy</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="disclaimer.aspx">Disclaimer</a></li>
+                        <li class="nav-item"><a class="nav-link text-info" href="copyright.aspx">Copyright</a> </li>
+                        <li class="nav-item"><a class="nav-link text-info" href="help.aspx">Help</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-12 m-auto col-md-4">
+                    <ul class="navbar-nav ml-auto text-white mt-3">
+                        <li class="nav-item text-white">Contact Us</li>
+                        <li class="nav-item ">458/11 Near Acharya Institute,</li>
+                        <li class="nav-item">Shakti Enclave,Thammenhalli,</li>
+                        <li class="nav-item">Bangalore-Karnataka (560107)</li>
+                        <li class="nav-item">hemantmishra854@gmail.com</li>
+                        <li class="nav-item">Mobile:7704850129</li>
+  
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 m-auto mb-3">
+                    <h6 class="text-center text-white">&copy;2018 designed and maintained by Hemant Mishra</h6>
+                </div>
+            </div>
+
+        </div>
+    </form>
+    <script src="jQuery/jquery-3.3.1.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+</html>
